@@ -1,0 +1,13 @@
+<mat-card class="step-card">
+  <mat-card-title class="center-title">Conversão</mat-card-title>
+  <mat-card-content>
+    <mat-form-field appearance="fill" class="input-field">
+      <mat-label>Digite o valor</mat-label>
+      <input matInput [(ngModel)]="inputValue" placeholder="Digite o valor">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="convert()">Converter</button>
+    <div *ngIf="result" class="result">
+      <p>Resultado: {{ result }}</p>
+    </div>
+  </mat-card-content>
+</mat-card>

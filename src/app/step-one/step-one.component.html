@@ -1,0 +1,9 @@
+<mat-card class="step-card">
+  <mat-card-title class="center-title">Escolha uma Conversão</mat-card-title>
+  <mat-card-content>
+    <div class="button-group">
+      <button mat-raised-button color="primary" routerLink="/step-two" [queryParams]="{ type: 'romano' }">Romano para Inteiro</button>
+      <button mat-raised-button color="accent" routerLink="/step-two" [queryParams]="{ type: 'inteiro' }">Inteiro para Romano</button>
+    </div>
+  </mat-card-content>
+</mat-card>
