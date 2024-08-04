@@ -1,18 +1,22 @@
 :host {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url("/assets/spartan.jpg"); /* Caminho absoluto */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .mat-card {
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para o card */
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/assets/spartan.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mat-card {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  );
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

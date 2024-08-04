@@ -24,7 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatButtonModule,
     MatInputModule,
     MatCardModule,
-    AppRoutingModule // Adicione RouterModule
+    AppRoutingModule
   ],
   providers: [ConversionService],
   bootstrap: [AppComponent]

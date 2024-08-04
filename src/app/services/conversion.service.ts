@@ -15,7 +15,6 @@ export class ConversionService {
     I: 1
   };
 
-  // Converte números romanos para inteiros
   romanToInt(roman: string): string {
     let num = 0;
     let prevValue = 0;
@@ -35,7 +34,6 @@ export class ConversionService {
     return num.toString();
   }
 
-  // Converte inteiros para números romanos
   intToRoman(num: number): string {
     if (num <= 0 || num >= 4000) {
       return 'Número fora do intervalo (1-3999)';
