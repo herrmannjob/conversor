@@ -5,7 +5,7 @@ import { ConversionService } from '../services/conversion.service';
 @Component({
   selector: 'app-step-two',
   templateUrl: './step-two.component.html',
-  styleUrls: ['./step-two.component.css']
+  styleUrls: ['./step-two.component.scss']
 })
 export class StepTwoComponent implements OnInit {
   conversionType: string | null = null;
